@@ -20,4 +20,3 @@ if [ -z "$TXT_FILE" ]; then
 fi
 OUT_TXT="$FOLDER_NAME/out.txt"
 python3 "$MAIN_PY" <"$TXT_FILE" >"$OUT_TXT"
-cat "$OUT_TXT"
