@@ -22,4 +22,4 @@ if [ -z "$TXT_FILE" ]; then
     exit 1
 fi
 
-python3 "$MAIN_PY" <"$TXT_FILE" >"$OUT_TXT"
+cat "$TXT_FILE" | python3 "$MAIN_PY" >"$OUT_TXT"
