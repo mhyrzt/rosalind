@@ -5,5 +5,5 @@
 ```bash
 git clone https://github.com/mhyrzt/rosalind.git
 python3 -m venv .venv
-uv pip install requirements.txt
+uv pip install requirements.txt # or simply use pip
 ```
